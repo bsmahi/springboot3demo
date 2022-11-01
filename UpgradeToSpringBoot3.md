@@ -1,6 +1,6 @@
 # Journey to Spring Boot 3.0 and Spring Framework 6.0
 
-Spring Boot 3.0 will be released in a few days, and we're looking forward to working on some of the new features.It is strongly advised that we do not migrate immediately to Spring Boot 3.0; it is generally simpler to upgrade in release order,for example, 2.5 -> 2.6 -> 2.7 rather than previous versions/2.5 -> 3.0.
+Spring Boot 3.0 will be released in a few days, and we're looking forward to working on some of the new features. It is strongly advised that we do not migrate immediately to Spring Boot 3.0; it is generally simpler to upgrade in release order,for example, 2.5 -> 2.6 -> 2.7 rather than previous versions/2.5 -> 3.0.
 
 Let's go through some of the most important aspects to improve.
 
