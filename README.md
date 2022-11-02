@@ -30,10 +30,10 @@ Because it is not feasible to utilise both Java EE and Jakarta EE A
 Fortunately, critical libraries such as `Hibernate Validator 7+, Tomcat 10+, and Jetty 11+` have already moved to Jakarta EE APIs.
 
 ## 3. Build Native Executables and Observability
-* Building native executables and delivering them to GraalVM takes precedence. So the Spring Native effort is now in full swing. For AOT generation, maven  introduced new goal of the *spring-boot-maven-plugin* i.e., `mvn spring-boot:aot-generate`. 
-Click [here](https://spring.io/blog/2022/03/22/initial-aot-support-in-spring-framework-6-0-0-m3) for additional information.
+Building native executables and delivering them to GraalVM takes precedence. So the Spring Native effort is now in full swing. For AOT generation, maven  introduced new goal of the *spring-boot-maven-plugin* i.e., `mvn spring-boot:aot-generate`. Click [here](https://spring.io/blog/2022/03/22/initial-aot-support-in-spring-framework-6-0-0-m3) for additional information.
 
-* With Spring Framework 6, a new [Micrometer](https://micrometer.io) was created, and the core [Spring Cloud Sleuth](https://spring.io/projects/spring-cloud-sleuth) project was moved to [Micrometer Tracing](https://github.com/micrometer-metrics/tracing/), which effectively tracks/records application metrics with Micrometer and implements tracing with providers such as OpenZipkin/Open Telemetry and auto-configuration is all in place with Spring Boot 3.
+With Spring Framework 6, a new [Micrometer](https://micrometer.io) was created, and the core [Spring Cloud Sleuth](https://spring.io/projects/spring-cloud-sleuth) project was moved to [Micrometer Tracing](https://github.com/micrometer-metrics/tracing/), which effectively tracks/records application metrics with Micrometer and 
+implements tracing with providers such as OpenZipkin/Open Telemetry and auto-configuration is all in place with Spring Boot 3.
 
 ## 4. Make use of Spring MVC's PathPatternParser
 It is recommended to utilise the parse pattern as the Spring MVC PathPatternParser (default) rather than AntPathMatcher.
@@ -57,4 +57,5 @@ The legacy application.properties and application.yaml processing support has�
 Happy Coding.
 
 ## in28minutes
+
 
