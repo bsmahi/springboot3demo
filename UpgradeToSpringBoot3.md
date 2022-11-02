@@ -36,7 +36,7 @@ With Spring Framework 6, a new [Micrometer](https://micrometer.io) was c
 implements tracing with providers such as OpenZipkin/Open Telemetry and auto-configuration is all in place with Spring Boot 3.
 
 ## 4. Make use of Spring MVC's PathPatternParser
-It is recommended to utilise the parse pattern as the Spring MVC PathPatternParser (default) rather than AntPathMatcher.
+It is recommended to utilise the parse pattern as the Spring MVC `PathPatternParser` (default) rather than `AntPathMatcher`.
 
 ## 5. Baseline Upgrade for Kotlin, Lombok, and Gradle 
 Using Kotlin 1.7+, Lombok 1.18.22 (JDK17 required), and Gradle 7.3+ necessitates the use of Spring Framework 6 and Spring Boot 3.
