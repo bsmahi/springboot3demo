@@ -11,7 +11,7 @@ Spring Boot 3.0 will be released in a few days,and we're looking for
  * Removal of Deprecated Code
  * Migrate from Legacy application.properties/.yaml processing
 
-### Let's go through each of the changes in depth.
+### Let's go through each of the changes in depth
 
 
 ## 1. Baseline Upgrade to Java 17
@@ -45,7 +45,7 @@ Using Kotlin 1.7+, Lombok 1.18.22 (JDK17 required), and Gradle 7.3+ necessitates
 Deprecated code has been removed, thus when migrating, consider using the java compiler parameter `-Werror` to fail during build if deprecation warnings are raised.
 
 ## 7. Migrate from Legacy application.properties/.yaml processing
-The legacy application.properties and application.yaml processing support has been discontinued in Spring Boot 3 therefore ensure that your project does not use it. i.e., the property spring.config.use-legacy-processing
+The legacy application.properties and application.yaml processing support has been discontinued in Spring Boot 3 therefore ensure that your project does not use it. i.e., the property spring.config.use-legacy-processing.
 
 # In conclusion
 * Migrate to Spring Boot 2.7 first, then to Spring Boot 3 using the migration instructions for 2.7.
