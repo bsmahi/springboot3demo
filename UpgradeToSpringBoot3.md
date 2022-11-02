@@ -14,7 +14,7 @@ Spring Boot 3.0 will be released in a few days,and we're looking for
 ### Let's go through each of the changes in depth.
 
 
-## 1. Baseline Upgrade Java 17
+## 1. Baseline Upgrade to Java 17
 
 Moving to Java 17 (LTS) becomes the baseline for Spring Boot 3.0, allowing developers to take use of new language capabilities such as
 * Pattern Matching - https://docs.oracle.com/en/java/javase/17/language/pattern-matching.html
