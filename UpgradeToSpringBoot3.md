@@ -56,4 +56,3 @@ The legacy application.properties and application.yaml processing support has�
 
 Happy Coding.
 
-## in28minutes
